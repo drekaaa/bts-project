@@ -83,7 +83,6 @@ section {
   align-items: center;
   color: white;
   scroll-snap-align: start;
-  overflow-y: scroll;
 }
 
 .latest h1 {
