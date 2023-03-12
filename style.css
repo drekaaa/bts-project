@@ -11,6 +11,12 @@ body {
   background-image: linear-gradient(black, rgb(38, 1, 44));
   overflow: hidden;
 }
+.secondpage {
+  background-image: linear-gradient(black, rgb(38, 1, 44)) !important;
+}
+
+.btsbg {
+}
 
 .header {
   height: 100vh;
@@ -19,6 +25,7 @@ body {
   background-image: url(/images/bts-bg.png);
   background-size: cover;
   background-position: center;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -74,7 +81,7 @@ nav ul li a:hover,
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+  overflow-y: scroll; /*ez miatt van scroll bar*/
   height: 100vh;
 }
 
