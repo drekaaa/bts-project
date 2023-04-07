@@ -10,22 +10,28 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(black, rgb(38, 1, 44));
   overflow: hidden;
+  color: white;
 }
 .secondpage {
   background-image: linear-gradient(black, rgb(38, 1, 44)) !important;
 }
 
 .btsbg {
+  background-image: url(/images/bts-bg.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .header {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba (0, 0, 0, 0.6), rgba (0, 0, 0, 0.6));
-  background-image: url(/images/bts-bg.png);
-  background-size: cover;
-  background-position: center;
+
   font-family: "Poppins", sans-serif;
+}
+
+.header2{
+ height: 15vh;
 }
 
 nav {
@@ -75,14 +81,19 @@ nav ul li a:hover,
   color: white;
 }
 
-.container {
+.container-fluid {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+.pageone{
   font-family: "Poppins", sans-serif;
   scroll-snap-type: y mandatory;
   overflow-y: scroll; /*ez miatt van scroll bar*/
   height: 100vh;
+  
 }
 
 section {
@@ -108,4 +119,32 @@ section {
 
 .latest {
   justify-content: center;
+}
+
+.discography{
+  
+}
+
+.box:nth-child(odd)
+{
+  justify-content: right;
+  text-align: right;
+}
+
+hr{
+  size: 15px;
+  width: 25%;
+  border:3px solid white;
+  color: white;
+}
+
+.albumcovers{
+  height: 500px;
+  box-shadow: 0 0 50px 5px #9e12a6;
+}
+
+.albumname{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 50px;;
 }
